@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.tunnel.activity.log2">
+
+    <ImageButton
+        android:id="@+id/imageButton_back_log"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/back"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/tv_tunnel_name_log1"
+        android:layout_width="91dp"
+
+
+        android:layout_height="46dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:gravity="center"
+        android:text="**隧道  "
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@id/imageButton_back_log"
+        app:layout_constraintStart_toEndOf="@+id/imageButton_back_log"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.25" />
+
+    <TextView
+        android:id="@+id/tv_rock_grade_log1"
+        android:layout_width="80dp"
+
+        android:layout_height="47dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:gravity="center"
+        android:text="III"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@+id/tv_tunnel_name_log1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_tunnel_subface_log1"
+        android:layout_width="107dp"
+
+        android:layout_height="45dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:gravity="center"
+        android:text="进口"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@+id/tv_rock_grade_log1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/tv_upload_log"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:gravity="center|left"
+        android:text="刘鹏 上传于 2019-10-15 13:45:47"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_rock_grade_log1" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="412dp"
+        android:layout_height="557dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_upload_log">
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="@drawable/divide"
+            android:orientation="vertical"
+            android:showDividers="middle|end|beginning">
+
+            <TextView
+                android:id="@+id/tv_tunnel_section_log"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="隧道标段："
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tv_tunnel_name_log"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="隧道名称："
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tv_tunnel_subface_log"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="掌子面："
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tv_rock_grade_log"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="主流程："
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tv_tunnel_subprocess_log"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="子流程："
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tv_user_name_log"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="上报人："
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tv_explanation_log"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="备注："
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tv_save_time_log"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="保存时间："
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tv_upload_time_log"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="上报时间："
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/photos_log"
+                android:layout_width="match_parent"
+                android:layout_height="59dp"
+                android:text="图片："
+                android:textSize="18sp" />
+
+            <GridView
+                android:id="@+id/imagelist_log"
+                android:layout_width="396dp"
+                android:layout_height="114dp"
+                android:numColumns="3" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

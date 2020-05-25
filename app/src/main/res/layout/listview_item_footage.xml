@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/LinearLayout_1"
+        android:layout_width="match_parent"
+
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:showDividers="middle">
+
+        <TextView
+            android:id="@+id/tunnel_name"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="**隧道"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/rock_grade"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="V级围岩等级"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tunnel_section"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="锚杆"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearLayout_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:showDividers="middle">
+
+        <ImageView
+            android:id="@+id/imageview_time"
+            android:layout_width="22dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/upload_time"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="2019-10-15 \n13:49:16"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/imageview_card"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/user_name"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="刘鹏"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tunnel_subface"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="有图片"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

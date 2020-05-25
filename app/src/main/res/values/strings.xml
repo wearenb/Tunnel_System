@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">隧道施工查看</string>
+    <string name="显示条数">全部（）条</string>
+
+    <!--一分部-->
+    <string name="桃坪隧道出口">桃坪隧道出口 </string>
+    <string name="乌石咀隧道进口">乌石咀隧道进口 </string>
+    <string name="乌石咀隧道出口">乌石咀隧道出口 </string>
+    <string name="郑家1号隧道进口">郑家1号隧道进口 </string>
+    <string name="郑家1号隧道出口">郑家1号隧道出口 </string>
+    <string name="郑家2号隧道进口">郑家2号隧道进口 </string>
+    <string name="郑家2号隧道出口">郑家2号隧道出口 </string>
+
+    <!--二分部-->
+    <string name="梯子岭隧道进口">梯子岭隧道进口 </string>
+    <string name="梯子岭隧道出口">梯子岭隧道出口 </string>
+    <string name="排子隧道进口">排子隧道进口 </string>
+    <string name="排子隧道出口">排子隧道出口 </string>
+    <string name="勾鼻墩1号隧道进口">勾鼻墩1号隧道进口 </string>
+    <string name="勾鼻墩2号隧道出口">勾鼻墩2号隧道出口 </string>
+    <string name="柯树下隧道进口">柯树下隧道进口 </string>
+    <string name="柯树下隧道出口">柯树下隧道出口 </string>
+
+
+    <string-array name="一分部">
+        <item>桃坪隧道出口</item>
+        <item>乌石咀隧道进口</item>
+        <item>乌石咀隧道出口</item>
+        <item>郑家1号隧道进口</item>
+        <item>郑家1号隧道出口</item>
+        <item>郑家2号隧道进口</item>
+        <item>郑家2号隧道出口</item>
+
+
+    </string-array>
+
+
+    <string-array name="二分部">
+        <item>梯子岭隧道进口</item>
+        <item>梯子岭隧道出口</item>
+        <item>排子隧道进口</item>
+        <item>排子隧道出口</item>
+        <item>勾鼻墩1号隧道进口</item>
+        <item>勾鼻墩2号隧道出口</item>
+        <item>柯树下隧道进口</item>
+        <item>柯树下隧道出口</item>
+
+
+    </string-array>
+    <string name="title_activity_test">test</string>
+
+</resources>

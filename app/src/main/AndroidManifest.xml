@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.tunnel">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="隧道施工查看"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name="com.example.tunnel.activity.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.tunnel.activity.footage2" />
+        <activity android:name="com.example.tunnel.activity.footage1" />
+        <activity android:name="com.example.tunnel.activity.footage" />
+        <activity android:name="com.example.tunnel.activity.log2" />
+        <activity android:name="com.example.tunnel.activity.log1" />
+        <activity android:name="com.example.tunnel.activity.listview_footage" />
+    </application>
+
+</manifest>
